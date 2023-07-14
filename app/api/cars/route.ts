@@ -1,5 +1,3 @@
-import { CarState } from "@/types";
-
 export const POST = async (req: Request): Promise<Response> => {
 
     const filters = await req.json()
